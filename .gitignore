@@ -1,0 +1,25 @@
+# Исключаем node_modules
+node_modules/
+
+# Игнорируем логи
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Игнорируем файлы окружения
+.env
+.env.local
+.env.development
+.env.production
+
+# Игнорируем кеш NestJS
+dist/
+
+# Игнорируем файлы Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# Игнорируем файлы MySQL
+*.sql
